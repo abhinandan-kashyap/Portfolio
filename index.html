@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050505" />
+    <meta
+      name="description"
+      content="Abhinandan Kumar — Software Developer, Athlete, and Author of Build A Comrade Mentality."
+    />
+    <title>Abhinandan Kumar — Engineer × Athlete × Author</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="nav" id="nav">
+      <span class="nav-spacer" aria-hidden="true"></span>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#overview">Overview</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#project-index">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#beyond-code">Beyond Code</a>
+        <a href="#journey">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="#journey">Explore Journey <span>↘</span></a>
+      <button class="menu-button" aria-label="Open navigation" aria-expanded="false">
+        <i></i><i></i>
+      </button>
+    </header>
+
+    <main>
+      <section class="scrolly" id="overview" aria-label="Identity reveal">
+        <div class="stage">
+          <canvas id="scene" aria-hidden="true"></canvas>
+          <div class="hero-video-wrap">
+            <video
+              class="hero-video"
+              src="assets/portfolio-intro.mp4"
+              autoplay
+              muted
+              playsinline
+              preload="auto"
+              aria-label="Abhinandan Kumar portfolio introduction video"
+            ></video>
+            <button class="sound-toggle is-visible" type="button" aria-label="Turn video sound on">
+              <span class="sound-icon" aria-hidden="true">♪</span>
+              <span class="sound-label">Sound on</span>
+            </button>
+          </div>
+          <div class="scene-vignette"></div>
+          <div class="scene-grid"></div>
+
+          <div class="progress" aria-hidden="true">
+            <span class="progress-label">01 / IDENTITY</span>
+            <i><b></b></i>
+            <span class="progress-value">000</span>
+          </div>
+
+          <div class="scroll-copy">
+            <article class="chapter chapter-hero is-active" data-range="0,0.17">
+              <p class="eyebrow">Software developer · Athlete · Author</p>
+              <h1>Abhinandan<br />Kumar</h1>
+              <p class="lede" data-type-text="Building technology with logic, discipline, and a comrade mentality.">Building technology with logic, discipline, and a comrade mentality.</p>
+            </article>
+
+            <article class="chapter chapter-skills" id="skills" data-range="0.17,0.46">
+              <div class="skills-intro">
+                <p class="eyebrow">01 / Skills</p>
+                <h2>Tools behind<br />the craft.</h2>
+                <p>A practical stack built around strong computer science fundamentals.</p>
+              </div>
+              <div class="skills-grid">
+                <section class="skill-card">
+                  <div class="skill-card-heading">
+                    <span class="skill-card-number">01</span>
+                    <h3>Programming Languages</h3>
+                  </div>
+                  <div class="skill-items">
+                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="" />Java <small>DSA</small></span>
+                    <span class="skill-item"><i class="skill-symbol">DB</i>SQL</span>
+                    <span class="skill-item icon-pair"><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="" /><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="" /></span>C / C++</span>
+                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="" />Python</span>
+                  </div>
+                </section>
+
+                <section class="skill-card">
+                  <div class="skill-card-heading">
+                    <span class="skill-card-number">02</span>
+                    <h3>Web Technologies</h3>
+                  </div>
+                  <div class="skill-items">
+                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="" />HTML5</span>
+                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="" />CSS</span>
+                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="" />JavaScript</span>
+                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="" />Bootstrap</span>
+                  </div>
+                </section>
+
+                <section class="skill-card">
+                  <div class="skill-card-heading">
+                    <span class="skill-card-number">03</span>
+                    <h3>Frameworks &amp; Tools</h3>
+                  </div>
+                  <div class="skill-items">
+                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="" />VS Code</span>
+                    <span class="skill-item"><i class="skill-symbol">AG</i>Antigravity</span>
+                    <span class="skill-item icon-pair"><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="" /><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="" /></span>Git &amp; GitHub</span>
+                    <span class="skill-item"><i class="skill-symbol">S</i>Stitch</span>
+                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="" />MySQL</span>
+                    <span class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="" />React.js</span>
+                  </div>
+                </section>
+
+                <section class="skill-card">
+                  <div class="skill-card-heading">
+                    <span class="skill-card-number">04</span>
+                    <h3>Computer Science Concepts</h3>
+                  </div>
+                  <div class="skill-items">
+                    <span class="skill-item"><i class="skill-symbol">{ }</i>OOPs</span>
+                    <span class="skill-item"><i class="skill-symbol">DB</i>DBMS</span>
+                    <span class="skill-item"><i class="skill-symbol">↳</i>Data Structures &amp; Algorithms</span>
+                    <span class="skill-item"><i class="skill-symbol">⌁</i>Networking</span>
+                    <span class="skill-item"><i class="skill-symbol">OS</i>Operating System</span>
+                  </div>
+                </section>
+              </div>
+            </article>
+
+            <article class="chapter chapter-experience" id="experience" data-range="0.46,0.72">
+              <div class="experience-copy">
+                <p class="eyebrow">02 / Experience</p>
+                <h2>Enterprise rhythm.<br />Real data discipline.</h2>
+                <p>Hands-on exposure to structured data workflows, validation, documentation, and IT operations inside a professional technology environment.</p>
+              </div>
+              <div class="experience-card">
+                <div class="experience-card-top">
+                  <span>Internship</span>
+                  <i>Feb 2026 – Apr 2026</i>
+                </div>
+                <h3>Process Associate Intern</h3>
+                <p>Cyber Data</p>
+                <small>Software Technology Parks of India (STPI), Dehradun</small>
+                <div class="experience-work">
+                  <span>Structured dataset processing</span>
+                  <span>Data validation</span>
+                  <span>Data quality checking</span>
+                  <span>Business workflow documentation</span>
+                  <span>IT operations exposure</span>
+                  <span>SDLC practices</span>
+                  <span>Enterprise data handling</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="chapter chapter-final" id="journey" data-range="0.72,1">
+              <p class="eyebrow">03 / Complete system</p>
+              <h2>Build yourself.<br /><em>Build the future.</em></h2>
+              <p>Software Developer, Athlete, and Author crafting technology with purpose.</p>
+              <div class="button-row">
+                <a class="button button-primary" href="#project-index">Explore My Work <span>↘</span></a>
+                <a class="button button-quiet" href="assets/Abhinandan_Kumar_Resume_ATS.pdf" download>Download Resume <span>↓</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="project-section" id="project-index">
+        <div class="section-heading">
+          <p class="eyebrow">Selected systems / 2024–2026</p>
+          <h2>Proof of work.</h2>
+          <p>Products, algorithms, and interfaces built with equal attention to the system and the person using it.</p>
+        </div>
+        <div class="project-list">
+          <article class="project-card">
+            <div class="project-number">01</div>
+            <div class="project-content">
+              <p class="project-type">Full-stack · Firebase · Location</p>
+              <h3>Smart Parking Finder</h3>
+              <p>A real-time parking marketplace powered by Firebase and location technology.</p>
+              <div class="project-meta"><span>Idea</span><i></i><span>Design</span><i></i><span>Logic</span><i></i><span>Execution</span></div>
+              <button class="project-action" type="button" disabled>Personal Project</button>
+            </div>
+            <div class="project-mark mark-map" aria-hidden="true"><i></i><i></i><i></i><b></b></div>
+          </article>
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <div class="project-content">
+              <p class="project-type">Java · Recursion · Algorithms</p>
+              <h3>Sudoku Solver</h3>
+              <p>Recursive intelligence built through Java and backtracking algorithms.</p>
+              <div class="project-meta"><span>Input</span><i></i><span>Search</span><i></i><span>Backtrack</span><i></i><span>Solve</span></div>
+              <a class="project-action" href="https://github.com/abhinandan-kashyap/Sudoku-Solver" target="_blank" rel="noopener noreferrer">View Code <span>↗</span></a>
+            </div>
+            <div class="project-mark mark-grid" aria-hidden="true"></div>
+          </article>
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <div class="project-content">
+              <p class="project-type">SQL · Analysis · Intelligence</p>
+              <h3>Pizza Sales Analysis</h3>
+              <p>Turning thousands of records into clear, meaningful business insights.</p>
+              <div class="project-meta"><span>Data</span><i></i><span>Query</span><i></i><span>Pattern</span><i></i><span>Decision</span></div>
+              <a class="project-action" href="https://github.com/abhinandan-kashyap/Pizza-Sales-SQL-Analysis" target="_blank" rel="noopener noreferrer">View Code <span>↗</span></a>
+            </div>
+            <div class="project-mark mark-chart" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+          </article>
+          <article class="project-card">
+            <div class="project-number">04</div>
+            <div class="project-content">
+              <p class="project-type">Frontend · Responsive · UI</p>
+              <h3>Spotify UI Clone</h3>
+              <p>Frontend precision expressed through responsive design and interface detail.</p>
+              <div class="project-meta"><span>Study</span><i></i><span>Structure</span><i></i><span>Style</span><i></i><span>Refine</span></div>
+              <a class="project-action" href="https://github.com/abhinandan-kashyap/Spotify-Home-page" target="_blank" rel="noopener noreferrer">View Code <span>↗</span></a>
+            </div>
+            <div class="project-mark mark-wave" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="education-section" id="education">
+        <div class="section-heading">
+          <p class="eyebrow">Education / Certifications / Honors</p>
+          <h2>Proof beyond<br />projects.</h2>
+          <p>Academic performance, structured learning, and challenge-based recognition in one focused foundation layer.</p>
+        </div>
+        <div class="education-timeline">
+          <article class="education-card education-card-featured">
+            <div class="education-year">Education / 2023 – 2026</div>
+            <div class="education-content">
+              <p class="education-level">Bachelor of Computer Applications</p>
+              <h3>BCA</h3>
+              <p class="education-place">Tula's Institute, Dehradun</p>
+              <div class="education-stats">
+                <span>83% Aggregate</span>
+                <span>Academic Excellence Award ×2</span>
+                <span>NSS member</span>
+                <span>40+ community service hours</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="education-card">
+            <div class="education-year">Education / 2019 – 2021</div>
+            <div class="education-content">
+              <p class="education-level">Class XII</p>
+              <h3>Intermediate</h3>
+              <p class="education-place">S G M +2 High School</p>
+              <div class="education-stats">
+                <span>BSEB Board</span>
+                <span>78% Score</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="education-card">
+            <div class="education-year">Certification / Apna College</div>
+            <div class="education-content">
+              <p class="education-level">Java Programming &amp; Data Structures</p>
+              <h3>Java + DSA</h3>
+              <p class="education-place">Programming foundations and algorithmic problem solving.</p>
+              <div class="education-stats">
+                <span>Arrays</span>
+                <span>Linked Lists</span>
+                <span>Trees</span>
+                <span>Graphs</span>
+                <span>Recursion</span>
+                <span>Backtracking</span>
+                <span>Sorting</span>
+                <span>Searching</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="education-card">
+            <div class="education-year">Certification / A.I.C Educational Trust</div>
+            <div class="education-content">
+              <p class="education-level">Advanced Diploma in Computer Applications</p>
+              <h3>ADCA</h3>
+              <p class="education-place">Application fundamentals and productivity systems.</p>
+              <div class="education-stats">
+                <span>C Programming</span>
+                <span>Database fundamentals</span>
+                <span>MS Office</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="education-card education-card-featured">
+            <div class="education-year">Honors / 2023–24 · 2024–25</div>
+            <div class="education-content">
+              <p class="education-level">Tula's Institute</p>
+              <h3>Academic Excellence ×2</h3>
+              <p class="education-place">Awarded for top academic performance.</p>
+              <div class="education-stats">
+                <span>Top academic performance</span>
+                <span>2023–24</span>
+                <span>2024–25</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="education-card">
+            <div class="education-year">Award / Internal Hackathon</div>
+            <div class="education-content">
+              <p class="education-level">Prototype challenge</p>
+              <h3>Hackathon Participant</h3>
+              <p class="education-place">Collaborative problem solving under a 24-hour build window.</p>
+              <div class="education-stats">
+                <span>Team of 4</span>
+                <span>Prototype building</span>
+                <span>Problem solving</span>
+                <span>24-hour challenge</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="beyond-section" id="beyond-code">
+        <div class="beyond-hero">
+          <p class="eyebrow">Beyond Code</p>
+          <h2>Engineer by education.<br />Athlete by discipline.<br /><em>Author by mindset.</em></h2>
+        </div>
+
+        <div class="beyond-grid">
+          <article class="beyond-card beyond-author">
+            <div class="beyond-copy">
+              <p class="eyebrow">Author</p>
+              <h3>Building minds beyond machines.</h3>
+              <p>Author of “Build A Comrade Mentality” — a book focused on discipline, self-growth, mental strength, and the mindset required to overcome challenges.</p>
+              <p>Writing is my way of transforming experiences into ideas that inspire consistency, resilience, and continuous improvement.</p>
+              <div class="beyond-points">
+                <span>✦ Published Author</span>
+                <span>✦ Personal Development</span>
+                <span>✦ Discipline &amp; Growth Mindset</span>
+                <span>✦ Building the Comrade Mentality</span>
+              </div>
+              <div class="beyond-actions">
+                <a class="button button-primary" href="https://amzn.in/d/0i2gf4r9" target="_blank" rel="noopener noreferrer">Explore The Book <span>↗</span></a>
+                <a class="button button-quiet" href="https://www.amazon.com/author/abhinandan-kashyap" target="_blank" rel="noopener noreferrer">Follow Author <span>↗</span></a>
+              </div>
+            </div>
+            <div class="book-cover" aria-hidden="true">
+              <img src="assets/book-img.png" alt="" />
+            </div>
+          </article>
+
+          <article class="beyond-card beyond-athlete">
+            <div class="beyond-copy">
+              <p class="eyebrow">Athlete</p>
+              <h3>Before building systems, I build myself.</h3>
+              <p>Fitness taught me the principles I bring into engineering — discipline, patience, consistency, and the ability to improve every single day.</p>
+              <p>Through FittComrade, I share my journey of strength, mindset, and becoming better physically and mentally.</p>
+              <div class="beyond-points">
+                <span>✦ Strength &amp; Discipline</span>
+                <span>✦ Fitness Journey</span>
+                <span>✦ Consistency Over Motivation</span>
+                <span>✦ Physical &amp; Mental Growth</span>
+              </div>
+              <a class="button button-quiet" href="https://www.instagram.com/fittcomrade?igsh=MXBqbWhld2R3N3p5" target="_blank" rel="noopener noreferrer">Follow My Journey <span>↗</span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <footer id="contact">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact / Let’s build</p>
+          <h2>Have a problem<br />worth solving?</h2>
+          <p>Share a few details and I’ll get back to you directly on email.</p>
+        </div>
+
+        <form
+          id="contactForm"
+          class="contact-form"
+          action="https://formsubmit.co/abhinandan.kashyap18@gmail.com"
+          method="POST"
+        >
+          <input type="hidden" name="_subject" value="New portfolio contact request" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
+
+          <div class="form-grid">
+            <label>
+              <span>Name</span>
+              <input id="contactName" type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input id="contactEmail" type="email" name="_replyto" placeholder="your@email.com" required />
+            </label>
+          </div>
+
+          <label>
+            <span>Subject</span>
+            <input id="contactSubject" type="text" name="subject" placeholder="Project, opportunity, collaboration..." required />
+          </label>
+
+          <label>
+            <span>Message</span>
+            <textarea id="contactMessage" name="message" rows="5" placeholder="Tell me what you want to build or discuss." required></textarea>
+          </label>
+
+          <div class="contact-actions">
+            <button class="button button-primary" type="submit">Send Message <span>↗</span></button>
+            <button class="button button-quiet direct-email" type="button">Email Directly <span>↗</span></button>
+          </div>
+          <p class="form-note">FormSubmit may require one-time activation from your Gmail inbox. If messages do not arrive, use Email Directly.</p>
+        </form>
+
+        <p class="eyebrow">Next / Let’s build</p>
+        <h2>Have a problem<br />worth solving?</h2>
+        <a class="footer-email" href="mailto:hello@abhinandankumar.dev">Start a conversation <span>↗</span></a>
+        <div class="footer-bottom">
+          <span>© <b id="year"></b> Abhinandan Kumar</span>
+          <div>
+            <a href="https://www.linkedin.com/in/abhinandankumarr" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.94 8.75H3.56V20h3.38V8.75ZM5.25 4a1.96 1.96 0 1 0 0 3.92A1.96 1.96 0 0 0 5.25 4Zm15.2 9.7c0-3.02-1.61-4.43-3.76-4.43-1.73 0-2.5.95-2.94 1.62V8.75h-3.24V20h3.38v-5.56c0-1.47.28-2.9 2.1-2.9 1.8 0 1.82 1.69 1.82 3V20h3.38v-6.3h-.74Z"/></svg>
+              LinkedIn
+            </a>
+            <a href="https://github.com/abhinandan-kashyap" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.02 3.5a8.5 8.5 0 0 0-2.69 16.56c.43.08.58-.18.58-.41v-1.45c-2.38.52-2.88-1.02-2.88-1.02-.39-.99-.95-1.25-.95-1.25-.78-.53.06-.52.06-.52.86.06 1.31.88 1.31.88.76 1.3 2  .92 2.49.7.08-.55.3-.92.54-1.13-1.9-.22-3.9-.95-3.9-4.22 0-.93.33-1.69.88-2.28-.09-.22-.38-1.09.08-2.25 0 0 .72-.23 2.34.87a8.07 8.07 0 0 1 4.27 0c1.62-1.1 2.33-.87 2.33-.87.47 1.16.18 2.03.09 2.25.55.59.88 1.35.88 2.28 0 3.28-2 4-3.91 4.21.31.27.58.79.58 1.6v2.37c0 .23.15.5.59.41A8.5 8.5 0 0 0 12.02 3.5Z"/></svg>
+              GitHub
+            </a>
+            <a href="mailto:abhinandan.kashyap18@gmail.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.75 6.5h14.5c.96 0 1.75.79 1.75 1.75v7.5c0 .96-.79 1.75-1.75 1.75H4.75A1.75 1.75 0 0 1 3 15.75v-7.5c0-.96.79-1.75 1.75-1.75Zm.54 1.5 6.31 4.4c.24.17.56.17.8 0L18.71 8H5.29Zm14.21 1.37-6.24 4.35a2.2 2.2 0 0 1-2.52 0L4.5 9.37v6.38c0 .14.11.25.25.25h14.5c.14 0 .25-.11.25-.25V9.37Z"/></svg>
+              Email
+            </a>
+          </div>
+          <button class="to-top">Back to top ↑</button>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
